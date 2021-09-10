@@ -1,0 +1,8 @@
+type Query {
+    batch: Batch
+}
+
+type Batch {
+    _id: ID
+    name: String
+}
